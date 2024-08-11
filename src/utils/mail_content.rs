@@ -64,7 +64,7 @@ impl Receiver {
 }
 
 pub fn subject() -> String {
-    "Sending email with Rust".to_string()
+    "Congratulations! You've been shortlisted".to_string()
 }
 
 pub fn mail_content(receiver: &Receiver) -> String {
