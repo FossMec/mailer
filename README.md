@@ -37,3 +37,8 @@ You can modify SMTP server in main.rs.
 Add Recepients at ```utils/recepients.rs```
 
 Adjust Mail to be sent in html format at ```utils/mail_content.rs```
+
+things needed for this code to work:
+```src/utils/links.rs```
+
+and a ```Recepients.csv ```file
